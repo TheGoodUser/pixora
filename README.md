@@ -6,6 +6,8 @@ A Flutter mobile application for efficient image upload and processing with seam
 
 Pixora is a cross-platform mobile application built with Flutter that allows users to capture, select, and upload images for server-side processing. It provides a clean, intuitive interface for image management with features including image preview, upload history, and real-time status tracking.
 
+![alt text](assignment-arch.png)
+
 ## Key Features
 
 - **Image Capture & Selection**: Pick images from your device camera or gallery with permission handling
@@ -210,21 +212,3 @@ Verify the port forwarding is active:
 adb reverse tcp:8000 tcp:8000
 adb reverse --list
 ```
-
-For comprehensive troubleshooting, see the [Flutter documentation](https://docs.flutter.dev/).
-
-## Contributing
-
-We welcome contributions from the community! Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Authors and Maintainers
-
-Pixora is developed and maintained by the Pixora team. For questions or suggestions, please open an issue on this repository.
-
----
-
-**Note**: This is an open-source project. For production deployment, ensure proper security configurations, HTTPS setup, and environment-specific backend URLs.
